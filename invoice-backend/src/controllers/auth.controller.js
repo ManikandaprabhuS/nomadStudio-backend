@@ -106,6 +106,3 @@ exports.resetPassword = async (req, res) => {
     res.status(500).json({ message: 'Reset failed' });
   }
 };
-
-// gmail app pswd to use
-// https://myaccount.google.com/apppasswords?rapt=AEjHL4NtAdH8Sn_GpvtL_71pYSQXF1RyPexmNb59ueHcsB9VWBAMAGVdrI5Ps_snoLCtBNylF3fP44rnJvPvwLrYO8Mf2g8Be3IfHEQhKNykMoL5c7BqKwo
